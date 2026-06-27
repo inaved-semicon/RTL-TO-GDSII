@@ -15,7 +15,7 @@
 # Directory where synthesis reports will be stored.
 # ------------------------------------------------------------
 
-set LIB        "../Tech_Lib/lib/sky130_fd_sc_hd__tt_025C_1v80.lib"
+set LIB        "../Tech_Lib/sky130_fd_sc_hd__tt_025C_1v80.lib"
 set TOP        "router_top"
 set OUT_DIR    "Netlist"
 set RPT_DIR    "Report"
