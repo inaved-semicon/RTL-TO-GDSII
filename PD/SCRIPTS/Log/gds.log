@@ -2,7 +2,6 @@
 Magic 8.3 revision 656 - Compiled on Thu Jun  4 09:39:46 PM IST 2026.
 Starting magic under Tcl interpreter
 Using the terminal as the console.
-WARNING: RLIMIT_NOFILE is above 1024 and Tcl_Version<9 this may cause runtime issues [rlim_cur=524288]
 Using NULL graphics device.
 Could not find file '../Tech_Lib/sky130A.tech' in any of these directories:
          . $CAD_ROOT/magic/sys $CAD_ROOT/magic/sys/current
@@ -399,3 +398,18 @@ DEF read, Line 6902 (Error): Pin specified without layer, was not placed.
 LEF read, Line 6904 (Error): Don't know how to parse layer "met2"
 LEF Read:  Further errors will not be reported.
   Processed 49 pins total.
+  Processed 2 special nets total.
+  Processed 2906 nets total.
+DEF read: Processed 22235 lines.
+DEF Read: encountered 8340 errors total.
+DEF Read: encountered 1 warning total.
+Don't know how to read GDS-II:
+Nothing in "cifinput" section of tech file.
+No CIF/GDS output style set!
+I/O error in writing file ../RESULTS/GDS/router_top.gds.
+File may be incompletely written.
+
+=========================================
+ GDS Generation Completed Successfully
+ Output : router_top.gds
+=========================================
